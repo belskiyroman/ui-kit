@@ -1,10 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import * as ButtonType from './button.styled';
+import {
+  StandardStyled,
+  LightStyled,
+  LinkStyled,
+} from './button.styled';
 
 
-function Button({ children, type, ...props }) {
-  const ButtonStyled = ButtonType[type];
+const ButtonType = {
+  standard: StandardStyled,
+  light: LightStyled,
+  link: LinkStyled,
+};
+
+
+function Button({ children, theme, ...props }) {
+  const ButtonStyled = ButtonType[theme];
 
   return (
     <ButtonStyled {...props}>
@@ -15,12 +26,16 @@ function Button({ children, type, ...props }) {
 
 Button.defaultProps = {
   children: null,
-  type: 'standard',
+  loading: false,
+  color: 'blue',
+  theme: 'standard',
 };
 
 Button.propTypes = {
   children: PropTypes.any,
-  type: PropTypes.oneOf(Object.keys(ButtonType)),
+  loading: PropTypes.bool,
+  color: PropTypes.oneOf(['blue', 'red']),
+  theme: PropTypes.oneOf(Object.keys(ButtonType)),
 };
 
 

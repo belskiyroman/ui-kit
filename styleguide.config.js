@@ -17,6 +17,7 @@ module.exports = {
   dangerouslyUpdateWebpackConfig,
   components: `${COMPONENTS_PATH}/**/*.${COMPONENTS_EXT}`,
   ignore: [
+    `**/index.${COMPONENTS_EXT}`,
     `**/*.test.${COMPONENTS_EXT}`,
     `**/*.styled.${COMPONENTS_EXT}`,
   ],

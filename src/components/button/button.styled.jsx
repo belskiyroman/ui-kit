@@ -1,57 +1,117 @@
-import styled, { css } from 'styled-components';
+import styled, { css, keyframes } from 'styled-components';
+import { rgba } from 'polished';
 
-const disabled = css`
+export const COLOR = {
+  blue: '#70879E',
+  red: '#DF293E',
+};
+
+const colorProp = props => COLOR[props.color] || COLOR.blue;
+const loadingProp = props => props.loading && loading;
+
+const commonCSS = css`
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+`;
+
+const disabledCSS = css`
   &[disabled] {
     background-color: white;
     color: #B9C3C6;
     border: 1px solid #B9C3C6;
+    cursor: not-allowed;
   }
 `;
 
-export const standard = styled.button`
-  height: 34px;
-  padding: 0 12px;
-  border-radius: 4px;
-  box-sizing: border-box;
-  background-color: #70879E;
+const rotate = keyframes`
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+`;
+
+const loading = css`
+  text-shadow: none!important;
+  color: transparent!important;
+    
+  :before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    transform: translate(-50%, -50%);
+    border-radius: 500rem;
+    border: .2em solid ${props => rgba(colorProp(props), 0.2)};
+  }
+
+  :after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    animation: ${rotate} .6s linear;
+    animation-iteration-count: infinite;
+    border-radius: 500rem;
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: .2em;
+    box-shadow: 0 0 0 1px transparent;
+  }
+`;
+
+
+export const StandardStyled = styled.button`
+  ${commonCSS}
+  background-color: ${colorProp};
   color: white;
-  font-size: 14px;
-  line-height: 1.5;
   
   :hover {
   	border: 1px solid #596F86;
   }
   
-  :active {}
-  
-  ${disabled}
+  ${disabledCSS}
+  ${loadingProp}
 `;
 
 
-export const light = styled.button`
-  height: 34px;
-  padding: 0 12px;
-  border-radius: 4px;
-  border: 1px solid #70879E;
-  box-sizing: border-box;
+export const LightStyled = styled.button`
+  ${commonCSS}
+  border: 1px solid ${colorProp};
   background-color: white;
-  color: #70879E;
-  font-size: 14px;
-  line-height: 1.5;
+  color: ${colorProp};
+  
+  ${disabledCSS}
+  ${loadingProp}
 `;
 
 
-export const link = styled.button`
-  height: 34px;
-  padding: 0 12px;
+export const LinkStyled = styled.button`
+  ${commonCSS}
   border: none;
   background-color: white;
-  color: #70879E;
-  font-size: 14px;
-  line-height: 1.5;
+  color: ${colorProp};
   
   :hover {
-  	border: 1px solid #596F86;
+    text-decoration: underline;
   }
+  
+  ${disabledCSS}
+  &[disabled] {
+    border: none;
+  }
+  
+  ${loadingProp}
 `;
-
