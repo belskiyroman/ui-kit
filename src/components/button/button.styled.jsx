@@ -1,5 +1,5 @@
 import styled, { css, keyframes } from 'styled-components';
-import { rgba } from 'polished';
+import { rgba, darken } from 'polished';
 
 export const COLOR = {
   blue: '#70879E',
@@ -7,6 +7,7 @@ export const COLOR = {
 };
 
 const colorProp = props => COLOR[props.color] || COLOR.blue;
+const hoverColorProp = props => darken(.05, colorProp(props));
 const loadingProp = props => props.loading && loading;
 
 const commonCSS = css`
@@ -75,11 +76,13 @@ const loading = css`
 
 export const StandardStyled = styled.button`
   ${commonCSS}
-  background-color: ${colorProp};
   color: white;
+  background-color: ${colorProp};
+  border: 1px solid ${colorProp};
   
   :hover {
-  	border: 1px solid #596F86;
+    background-color: ${hoverColorProp};
+  	border: 1px solid ${hoverColorProp};
   }
   
   ${disabledCSS}

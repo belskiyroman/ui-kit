@@ -1,3 +1,4 @@
+Button is a standard html button. 
 
 ### Default button:
 ```jsx
@@ -9,8 +10,8 @@
 ### The standard theme:
 ```jsx
 <div>
-    <Button theme="standard">Active</Button>
-    <Button theme="standard" disabled>Disabled</Button>
+    <Button theme="standard" color="red">Active</Button>
+    <Button theme="standard" color="red" disabled>Disabled</Button>
 </div>
 ```
 ### The light theme:
@@ -23,7 +24,8 @@
 ### The link theme:
 ```jsx
 <div>
-    <Button theme="link">Active</Button>
-    <Button theme="link" disabled>Disabled</Button>
+    <Button theme="link" color="red">Active</Button>
+    <Button theme="link" color="red" disabled>Disabled</Button>
 </div>
 ```
+

@@ -14,15 +14,15 @@ const ButtonType = {
 };
 
 
-function Button({ children, theme, ...props }) {
-  const ButtonStyled = ButtonType[theme];
+export const Button = React.memo(({ children, theme, ...props }) => {
+  const ButtonStyled = ButtonType[theme] || ButtonType.standard;
 
   return (
     <ButtonStyled {...props}>
       {children}
     </ButtonStyled>
   );
-}
+});
 
 Button.defaultProps = {
   children: null,
@@ -37,7 +37,3 @@ Button.propTypes = {
   color: PropTypes.oneOf(['blue', 'red']),
   theme: PropTypes.oneOf(Object.keys(ButtonType)),
 };
-
-
-const MemoButton = React.memo(Button);
-export { MemoButton as Button };
