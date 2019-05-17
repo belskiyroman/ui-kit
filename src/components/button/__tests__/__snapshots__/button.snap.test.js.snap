@@ -1,0 +1,855 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check snapshot with props: {"children":"Text","color":"red","disabled":true} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #DF293E;
+  border: 1px solid #DF293E;
+}
+
+.c0:hover {
+  background-color: #cf1f33;
+  border: 1px solid #cf1f33;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  color="red"
+  disabled={true}
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","color":"red"} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #DF293E;
+  border: 1px solid #DF293E;
+}
+
+.c0:hover {
+  background-color: #cf1f33;
+  border: 1px solid #cf1f33;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  color="red"
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","disabled":true} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #70879E;
+  border: 1px solid #70879E;
+}
+
+.c0:hover {
+  background-color: #637a92;
+  border: 1px solid #637a92;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  color="blue"
+  disabled={true}
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","loading":true,"disabled":true} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #70879E;
+  border: 1px solid #70879E;
+  text-shadow: none!important;
+  color: transparent!important;
+}
+
+.c0:hover {
+  background-color: #637a92;
+  border: 1px solid #637a92;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+.c0:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  border-radius: 500rem;
+  border: .2em solid rgba(112,135,158,0.2);
+}
+
+.c0:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  -webkit-animation: fQmivK .6s linear;
+  animation: fQmivK .6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #fff transparent transparent;
+  border-style: solid;
+  border-width: .2em;
+  box-shadow: 0 0 0 1px transparent;
+}
+
+<button
+  className="c0"
+  color="blue"
+  disabled={true}
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","loading":true} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #70879E;
+  border: 1px solid #70879E;
+  text-shadow: none!important;
+  color: transparent!important;
+}
+
+.c0:hover {
+  background-color: #637a92;
+  border: 1px solid #637a92;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+.c0:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  border-radius: 500rem;
+  border: .2em solid rgba(112,135,158,0.2);
+}
+
+.c0:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  -webkit-animation: fQmivK .6s linear;
+  animation: fQmivK .6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #fff transparent transparent;
+  border-style: solid;
+  border-width: .2em;
+  box-shadow: 0 0 0 1px transparent;
+}
+
+<button
+  className="c0"
+  color="blue"
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","theme":"light","loading":false,"color":"blue"} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #70879E;
+  background-color: white;
+  color: #70879E;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  color="blue"
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","theme":"light","loading":false,"color":"red","disabled":true} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #DF293E;
+  background-color: white;
+  color: #DF293E;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  color="red"
+  disabled={true}
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","theme":"light","loading":false,"color":"red"} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #DF293E;
+  background-color: white;
+  color: #DF293E;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  color="red"
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","theme":"light","loading":true,"color":"blue"} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #70879E;
+  background-color: white;
+  color: #70879E;
+  text-shadow: none!important;
+  color: transparent!important;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+.c0:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  border-radius: 500rem;
+  border: .2em solid rgba(112,135,158,0.2);
+}
+
+.c0:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  -webkit-animation: fQmivK .6s linear;
+  animation: fQmivK .6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #fff transparent transparent;
+  border-style: solid;
+  border-width: .2em;
+  box-shadow: 0 0 0 1px transparent;
+}
+
+<button
+  className="c0"
+  color="blue"
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","theme":"link","loading":false,"color":"blue"} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: #70879E;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+.c0[disabled] {
+  border: none;
+}
+
+<button
+  className="c0"
+  color="blue"
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","theme":"link","loading":false,"color":"red","disabled":true} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: #DF293E;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+.c0[disabled] {
+  border: none;
+}
+
+<button
+  className="c0"
+  color="red"
+  disabled={true}
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","theme":"link","loading":false,"color":"red"} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: #DF293E;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+.c0[disabled] {
+  border: none;
+}
+
+<button
+  className="c0"
+  color="red"
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","theme":"link","loading":true,"color":"blue"} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: #70879E;
+  text-shadow: none!important;
+  color: transparent!important;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+.c0[disabled] {
+  border: none;
+}
+
+.c0:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  border-radius: 500rem;
+  border: .2em solid rgba(112,135,158,0.2);
+}
+
+.c0:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  -webkit-animation: fQmivK .6s linear;
+  animation: fQmivK .6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #fff transparent transparent;
+  border-style: solid;
+  border-width: .2em;
+  box-shadow: 0 0 0 1px transparent;
+}
+
+<button
+  className="c0"
+  color="blue"
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","theme":"standard","loading":false,"color":"blue"} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #70879E;
+  border: 1px solid #70879E;
+}
+
+.c0:hover {
+  background-color: #637a92;
+  border: 1px solid #637a92;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  color="blue"
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","theme":"standard","loading":false,"color":"red","disabled":true} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #DF293E;
+  border: 1px solid #DF293E;
+}
+
+.c0:hover {
+  background-color: #cf1f33;
+  border: 1px solid #cf1f33;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  color="red"
+  disabled={true}
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","theme":"standard","loading":false,"color":"red"} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #DF293E;
+  border: 1px solid #DF293E;
+}
+
+.c0:hover {
+  background-color: #cf1f33;
+  border: 1px solid #cf1f33;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  color="red"
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text","theme":"standard","loading":true,"color":"blue"} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #70879E;
+  border: 1px solid #70879E;
+  text-shadow: none!important;
+  color: transparent!important;
+}
+
+.c0:hover {
+  background-color: #637a92;
+  border: 1px solid #637a92;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+.c0:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  border-radius: 500rem;
+  border: .2em solid rgba(112,135,158,0.2);
+}
+
+.c0:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  -webkit-animation: fQmivK .6s linear;
+  animation: fQmivK .6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #fff transparent transparent;
+  border-style: solid;
+  border-width: .2em;
+  box-shadow: 0 0 0 1px transparent;
+}
+
+<button
+  className="c0"
+  color="blue"
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {"children":"Text"} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #70879E;
+  border: 1px solid #70879E;
+}
+
+.c0:hover {
+  background-color: #637a92;
+  border: 1px solid #637a92;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  color="blue"
+>
+  Text
+</button>
+`;
+
+exports[`Check snapshot with props: {} 1`] = `
+.c0 {
+  position: relative;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #70879E;
+  border: 1px solid #70879E;
+}
+
+.c0:hover {
+  background-color: #637a92;
+  border: 1px solid #637a92;
+}
+
+.c0[disabled] {
+  background-color: white;
+  color: #B9C3C6;
+  border: 1px solid #B9C3C6;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  color="blue"
+/>
+`;
